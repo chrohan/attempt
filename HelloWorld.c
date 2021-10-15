@@ -1,42 +1,27 @@
 #include<stdio.h>
-#include<math.h>
 int main() {
+ 
+int jyear;
+int cyear;
 
-int quantity;
-printf("quantities  ");
-scanf("%d",&quantity);
-int price;
-printf("price per quantity  ");
-scanf("%d",&price );
+printf ("enter the year joined and current year\n");
+scanf ("%d%d",&jyear,&cyear);
+printf ("jyear = %d current year = %d",jyear,cyear);
 
-int total= quantity*price;
-printf("%d\n",total );
+int exp= cyear-jyear;
 
- if (total>1000)
- {
-   float final= total-(0.1*total);
-printf("%f\n",final );
+if (exp>3)
+{
+  int bonus=2500;
+  printf("bonus= %drupees",bonus);
+}
+
+
+
 
  }
 
 
- // did a lot of work
-
- //branch
+ 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
