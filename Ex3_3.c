@@ -2,16 +2,22 @@
 int main()
 {
 
-int x=3.1;
-float y=3.0;
-if(x==y)
-printf("x and y are equal\n");
-else
-printf("x and y are not equal\n");
+    int cp, sp;
+    int loss,profit;
+
+
+    printf("enter cost price and selling price\n");
+    scanf("%d%d", &cp, &sp);
+    loss= cp-sp;
+    profit=sp-cp;
+    if (cp > sp)
+        printf("loss= %d\n",loss);
+    else
+        printf("profit= %d",profit);
+     
+    
 
 
 
-
-
-
+    return 0;
 }
